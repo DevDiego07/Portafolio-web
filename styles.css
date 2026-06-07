@@ -570,9 +570,27 @@ footer {
     .menu {
         display: none;
     }
+
+    section {
+        padding: 3rem 0;
+    }
+
+    .card-3d {
+        max-width: 250px;
+        margin: 0 auto;
+    }
+
+    .sobre-imagen {
+        order: -1;
+    }
 }
 
 @media (max-width: 640px) {
+    .hero {
+        min-height: auto;
+        padding: 6rem 1.2rem 3rem;
+    }
+
     .hero h1 {
         font-size: 2.5rem;
     }
@@ -587,6 +605,30 @@ footer {
 
     .habilidades-grid {
         grid-template-columns: 1fr;
+    }
+
+    .servicios-grid {
+        grid-template-columns: 1fr;
+    }
+
+    section {
+        padding: 2.5rem 0;
+    }
+
+    .card-3d {
+        max-width: 200px;
+    }
+
+    .titulo-seccion {
+        font-size: 1.8rem;
+    }
+
+    .hero {
+        padding: 0 1.2rem;
+    }
+
+    .contenedor {
+        padding: 0 1.2rem;
     }
 }
 

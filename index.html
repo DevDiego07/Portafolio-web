@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diego Peralta | Developer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <!-- MENÚ -->
+    <nav>
+        <div class="contenedor-nav">
+            <a href="#inicio" class="logo">DevDiego</a>
+            <ul class="menu">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#habilidades">Skills</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- INICIO -->
+    <section id="inicio" class="hero">
+        <div class="hero-contenido">
+            <p class="saludo">Hey, soy</p>
+            <h1>Diego Peralta Reyes</h1>
+            <h2>Full Stack Developer jr</h2>
+            <p class="descripcion">Me dedico a crear aplicaciones web. Trabajo con frontend y backend, siempre buscando escribir código limpio y resolver problemas reales.</p>
+            <div class="botones">
+                <a href="#proyectos" class="btn-primario">Ver proyectos</a>
+                <a href="#contacto" class="btn-secundario">Contactar</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SOBRE MÍ -->
+    <section id="sobre-mi">
+        <div class="contenedor">
+            <h2 class="titulo-seccion">Sobre mí</h2>
+            
+            <div class="sobre-grid">
+                <div class="sobre-texto">
+                    <p>Soy desarrollador full stack con experiencia en crear aplicaciones web desde cero. Me apasiona el desarrollo y siempre estoy aprendiendo nuevas tecnologías.</p>
+                    
+                    <p>Empecé en esto hace un par de años y desde entonces he trabajado en varios proyectos, desde páginas simples hasta aplicaciones más complejas con bases de datos y APIs.</p>
+                    
+                    <p>Cuando no estoy programando, probablemente esté leyendo sobre nuevas tecnologías, viendo tutoriales o colaborando en proyectos open source.</p>
+
+                    <div class="stats">
+                        <div class="stat-item">
+                            <span class="numero">2+</span>
+                            <span class="texto">Años</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="numero">10+</span>
+                            <span class="texto">Proyectos</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="numero">∞</span>
+                            <span class="texto">Café</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sobre-imagen">
+                    <div class="card-3d">
+                        <div class="card-inner">
+                            <img src="imagenes/foto-de-diego.png" alt="Diego Peralta">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- HABILIDADES -->
+    <section id="habilidades">
+        <div class="contenedor">
+            <h2 class="titulo-seccion">Tecnologías que uso</h2>
+            
+            <div class="habilidades-grid">
+                <div class="skill-box">
+                    <h3>Frontend</h3>
+                    <ul>
+                        <li>HTML & CSS</li>
+                        <li>JavaScript (ES6+)</li>
+                        <li>React</li>
+                        <li>Tailwind CSS</li>
+                    </ul>
+                </div>
+
+                <div class="skill-box">
+                    <h3>Backend</h3>
+                    <ul>
+                        <li>Node.js</li>
+                        <li>Express</li>
+                        <li>Python</li>
+                        <li>REST APIs</li>
+                    </ul>
+                </div>
+
+                <div class="skill-box">
+                    <h3>Database</h3>
+                    <ul>
+                        <li>SQLserver</li>
+                        <li>MySQL</li>
+                    </ul>
+                </div>
+
+                <div class="skill-box">
+                    <h3>Tools</h3>
+                    <ul>
+                        <li>Git & GitHub</li>
+                        <li>VS Code</li>
+                        <li>VS Comunity</li>  
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+<!--<section id="proyectos">
+    <div class="contenedor">
+        <h2 class="titulo-seccion">Proyectos Destacados</h2>
+        
+        <div class="proyectos-lista">
+            <article class="proyecto-item">
+                <div class="proyecto-info">
+                    <span class="proyecto-tag">🚧 En desarrollo</span>
+                    <h3>CRM — Sistema de Gestión de Clientes</h3>
+                    <p>Aplicación web empresarial para centralizar la gestión de clientes. Incluye autenticación con roles (admin/usuario), CRUD completo de clientes, historial de interacciones, múltiples datos de contacto por cliente y un dashboard con métricas en tiempo real.</p>
+                    
+                    <div class="tech-stack">
+                        <span>React 18</span>
+                        <span>Node.js</span>
+                        <span>Express</span>
+                        <span>SQL Server</span>
+                        <span>JWT</span>
+                        <span>Tailwind CSS</span>
+                    </div>
+
+                    <div class="proyecto-links">
+                        <a href="https://github.com/DevDiego07" target="_blank">GitHub →</a>
+                    </div>
+                </div>
+                <div class="proyecto-imagen">
+                    <div class="placeholder-img">En construcción</div>
+                </div>
+            </article>
+
+            <article class="proyecto-item reverse">
+    <div class="proyecto-info">
+        <span class="proyecto-tag">🚧 En desarrollo</span>
+        <h3>Sistema de Gestión de Inventario</h3>
+        <p>Aplicación web para el control de inventario en tiempo real. Incluye autenticación con roles, gestión de productos, categorías y proveedores, registro de entradas y salidas de stock con alertas automáticas de stock bajo, y exportación de reportes a PDF y Excel.</p>
+        
+        <div class="tech-stack">
+            <span>React 18</span>
+            <span>Node.js</span>
+            <span>Express</span>
+            <span>SQL Server</span>
+            <span>JWT</span>
+            <span>Tailwind CSS</span>
+        </div>
+
+        <div class="proyecto-links">
+            <a href="https://github.com/DevDiego07" target="_blank">GitHub →</a>
+        </div>
+    </div>
+    <div class="proyecto-imagen">
+        <div class="placeholder-img">En construcción</div>
+    </div>
+</article>
+        </div>
+    </div>
+</section>-->
+
+    <!-- CONTACTO -->
+    <section id="contacto">
+        <div class="contenedor">
+            <h2 class="titulo-seccion">Hablemos</h2>
+            
+            <div class="contacto-contenido">
+                <div class="contacto-texto">
+                    <p>Estoy abierto a nuevas oportunidades, colaboraciones o simplemente charlar sobre desarrollo. Si tienes algún proyecto en mente, contáctame.</p>
+                    
+                    <div class="info-contacto">
+                        <a href="mailto:tu-email@ejemplo.com" class="contacto-link">
+                            <span></span>
+                            <span>peraltareyesdiego@gmail.com</span>
+                        </a>
+                        <a href="https://github.com/DevDiego07" class="contacto-link" target="_blank">
+                            <span></span>
+                            <span>github/DevDiego07</span>
+                        </a>
+                        <a href="https://linkedin.com/in/DiegoPeraltaReyes" class="contacto-link" target="_blank">
+                            <span></span>
+                            <span>linkedin/diegoperaltareyes</span>
+                        </a>
+                        <a href="https://wa.me/18097803724" class="contacto-link" target="_blank">
+                            <span></span>
+                            <span>WhatsApp</span>
+                        </a>
+                    </div>
+                </div>
+
+                <form class="form-contacto" action="https://formspree.io/f/xqeopwbg" method="POST">
+                    <div class="form-grupo">
+                        <input type="text" name="nombre" placeholder="Nombre" required>
+                    </div>
+                    <div class="form-grupo">
+                        <input type="email" name="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-grupo">
+                        <textarea name="message" placeholder="Mensaje" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-enviar">Enviar mensaje</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>Hecho con ☕ por DevDiego07</p>
+    </footer>
+
+    <script src="portafolio.js"></script>
+</body>
+</html>
